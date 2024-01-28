@@ -135,50 +135,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          // bottomNavigationBar: AppBar(
-          //     bottom: AppBar(
-          //   backgroundColor: Colors.orange,
-          //       title: Center(child: Text('Emoji',style: TextStyle(color: Colors.white),)),
-          // )),
-          // body: Center(
-          //   child: Container(
-          //     height: 350,
-          //     decoration: BoxDecoration(
-          //       // color: Colors.white,
-          //       shape: BoxShape.circle,
-          //       border: Border.all(
-          //         color: Colors.orange,
-          //         width: 40,
-          //       ),
-          //     ),
-          //     alignment: const Alignment(0, -5),
-          //     child: Container(
-          //       height: 262,
-          //       decoration: const BoxDecoration(
-          //         color: Colors.orange,
-          //         shape: BoxShape.circle,
-          //       ),
-          //       alignment: const Alignment(-0.50, -0.50),
-          //       child: Container(
-          //         height: 80,
-          //         width: 80,
-          //         decoration: const BoxDecoration(
-          //           color: Colors.white,
-          //           shape: BoxShape.circle,
-          //         ),
-          //         alignment: const Alignment(90, 0),
-          //         child: Container(
-          //           height: 77,
-          //           width: 77,
-          //           decoration: const BoxDecoration(
-          //             color: Colors.white,
-          //             shape: BoxShape.circle,
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-          // ),
+          backgroundColor: Colors.white,
+          bottomNavigationBar: const BottomAppBar(
+          color: Colors.orange,
+          child: Center(child: Text('Emoji',style: TextStyle(color: Colors.white,fontSize: 30),)),
+          ),
           body: Center(
             child: Container(
               alignment: Alignment(0, -5),
